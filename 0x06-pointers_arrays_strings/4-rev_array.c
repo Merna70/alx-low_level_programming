@@ -1,18 +1,19 @@
 #include "main.h"
 /**
- * print_rev - print the  reversed string
- * @s: pointer to the string
- * Return: nothing
-*/
-void print_rev(char *s)
-{
-	int i = 0;
+ * reverse_array -  reverses the content of an array of integers
+ *
+ * @a: an array of an integer
+ *@n: the number of elements to swap
+ */
 
-	while (s[i])
-		i++;
-	while (i--)
+void reverse_array(int *a, int n)
+{
+	int i, j, t;
+
+	for (i = 0, j = (n - 1); i < j; i++, j--)
 	{
-		_putchar(s[i]);
+		t = a[i];
+		a[i] = a[j];
+		a[j] = t;
 	}
-	_putchar('\n');
 }
