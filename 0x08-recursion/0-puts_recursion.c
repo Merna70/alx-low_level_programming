@@ -3,6 +3,7 @@
  * _puts_recursion - funtion that prints string
  * @s: pointer
  */
+
 void _puts_recursion(char *s)
 {
 	if (*s == '\0')
