@@ -1,10 +1,11 @@
 #include "main.h"
+
 /**
  * *_memset - function allocates memory for an array
- *@s: pointer
- *@b: constant
- *@n: max byte to use
- *Return: s
+ * @s: pointer
+ * @b: constant
+ * @n: max byte to use
+ * Return: s
 */
 
 char *_memset(char *s, char b, unsigned int n)
