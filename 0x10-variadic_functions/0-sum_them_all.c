@@ -6,6 +6,7 @@
  *@...: the integers
  *Return: total
 */
+
 int sum_them_all(const unsigned int n, ...)
 {
 	int t = 0;
