@@ -13,7 +13,8 @@ void print_all(const char * const format, ...);
 void format_char(char *separator, va_list ap);
 void format_int(char *separator, va_list ap);
 void format_float(char *separator, va_list ap);
+void format_float(char *separator, va_list ap);
+void format_float(char *separator, va_list ap);
 void format_string(char *separator, va_list ap);
-void format_float(char *separator, va_list ap);
-void format_float(char *separator, va_list ap);
 #endif
+
