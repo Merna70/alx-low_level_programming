@@ -1,7 +1,7 @@
 #include "variadic_functions.h"
 
 /**
- *format_char - function char
+ *format_char - formats
  *@separator: the string separator
  *@ap: argument
 */
@@ -12,7 +12,7 @@ void format_char(char *separator, va_list ap)
 }
 
 /**
- *format_int - function integer
+ *format_int - function
  *@separator: the string operator
  *@ap: argument pointer
 */
@@ -23,7 +23,7 @@ void format_int(char *separator, va_list ap)
 }
 
 /**
- *format_float - function  float
+ *format_float - format
  *@separator: the string separator
  *@ap: argument pointer
  *
@@ -35,10 +35,10 @@ void format_float(char *separator, va_list ap)
 }
 
 /**
- *format_string - function strings
+ *format_string - format
  *@separator: the string separator
  *@ap: argument pointer
-*/
+ */
 
 void format_string(char *separator, va_list ap)
 {
@@ -51,7 +51,7 @@ void format_string(char *separator, va_list ap)
 }
 
 /**
- *print_all - function that prints anything
+ *print_all - prints all
  *@format: the format string
  *
 */
