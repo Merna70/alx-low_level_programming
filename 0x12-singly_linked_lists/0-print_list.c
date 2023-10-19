@@ -7,13 +7,13 @@
  *Return: the length of the string
 */
 
-int _strlen(char *t)
+int _strlen(char *s)
 {
 	int l = 0;
 
-	while (!t)
+	if (!s)
 		return (0);
-	while (*t++)
+	while (*s++)
 		l++;
 	return (l);
 }
@@ -27,7 +27,7 @@ int _strlen(char *t)
 
 size_t print_list(const list_t *h)
 {
-	size_t n = 0;
+	size_t k = 0;
 
 	while (h)
 	{
@@ -35,5 +35,5 @@ size_t print_list(const list_t *h)
 		h = h->next;
 		z++;
 	}
-	return (n);
+	return (k);
 }
