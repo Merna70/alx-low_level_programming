@@ -1,9 +1,9 @@
 #include "lists.h"
 
-void _constructor(void)_attribute_((constructor));
+void _constructor(void)__attribute__((constructor));
 
 /**
-* _constructor - executes before main()
+ * _constructor - function
  *
  * Return: void
  */
