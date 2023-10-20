@@ -3,7 +3,7 @@
 void _constructor(void)_attribute_((constructor));
 
 /**
- * _constructor - function
+* _constructor - executes before main()
  *
  * Return: void
  */
