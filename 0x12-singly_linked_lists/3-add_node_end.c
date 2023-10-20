@@ -4,7 +4,8 @@
  *add_node_end - function
  *@head: add of a pointer to the head node
  *@str: string field of the node
-  *Return: s
+ *
+ *Return: s
 */
 
 list_t *add_node_end(list_t **head, const char *str)
