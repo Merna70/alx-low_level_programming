@@ -1,7 +1,7 @@
 #include "lists.h"
 
 /**
- *add_node_end - function 
+ *add_node_end - function
  *@head: add of a pointer to the head node
  *@str: string field of the node
   *Return: s
@@ -31,6 +31,7 @@ list_t *add_node_end(list_t **head, const char *str)
 		node->next = end_node;
 	}
 	
+	else
 		*head = end_node;
 		 (end_node);
 
