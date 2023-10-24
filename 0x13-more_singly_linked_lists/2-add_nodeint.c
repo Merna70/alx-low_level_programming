@@ -1,9 +1,10 @@
 #include "lists.h"
 
 /**
-*add_nodeint - function
+*add_nodeint - function that adds a new node at the beginning of a list
 *@head: pointer to head
 *@n: data to insert to node
+*
 *Return: pointer to the new node
 */
 
