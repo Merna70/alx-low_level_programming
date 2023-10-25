@@ -1,8 +1,8 @@
 #include "lists.h"
 
 /**
-*insert_nodeint_at_index -  function that inserts a new node
-*@head: pointer to header of node
+*insert_nodeint_at_index - function to ins new node at giv index
+*@head: pointer to the header of the node
 *@idx: index of the list
 *@n: val of new node
 *Return: add of new nod
@@ -41,3 +41,7 @@ listint_t *insert_nodeint_at_index(listint_t **head, unsigned int idx, int n)
 		i++;
 		node = node->next;
 	}
+
+	free(new_node);
+	return (NULL);
+}
