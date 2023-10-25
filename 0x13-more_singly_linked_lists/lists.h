@@ -4,8 +4,8 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
-int _putchar(char c);
-int _strlen(char *s);
+
+
 /**
  * struct listint_s - singly linked list
  * @n: integer
