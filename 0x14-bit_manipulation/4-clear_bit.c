@@ -1,23 +1,21 @@
-#include <stdio.h>
 #include "main.h"
 
 /**
- * main - check the code
- *
- * Return: Always 0.
- */
-int main(void)
-{
-	nsigned long int n;
+*clear_bit -  clear the bit at the index
+*
+*@n: the number to the index
+*
+*@index: the bit to clear
+*
+*Return: 1 for success and -1 on error
+*/
 
-	n = 1024;
-	clear_bit(&n, 10);
-	printf("%lu\n", n);
-	n = 0;
-	clear_bit(&n, 10);
-	printf("%lu\n", n);
-	n = 98;
-	clear_bit(&n, 1);
-	printf("%lu\n", n);
-	return (0);
+int clear_bit(unsigned long int *n, unsigned int index)
+{
+	if (index >= sizeof(n) * 8)
+		return (-1);
+
+	if (*n & 1L << index)
+		*n ^= 1L << index;
+	return (1);
 }
