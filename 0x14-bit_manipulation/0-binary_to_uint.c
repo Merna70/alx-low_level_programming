@@ -4,6 +4,7 @@
 *binary_to_unit - function that converts a binary number
 *@b: string refers to binary number
 *Return: int
+*
 */
 
 unsigned int binary_to_uint(const char *b)
