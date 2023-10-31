@@ -1,6 +1,23 @@
 #include "main.h"
 
 /**
+ *_strlen - function
+ *@s: pointer to the string
+ *Return: length of the string
+ */
+
+int _strlen(char *s)
+{
+	int i = 0;
+
+	if (!s)
+		return (0);
+
+	while (*s++)
+		i++;
+	return (i);
+}
+/**
  *append_text_to_file - function to appends text at the end of a file
  *@filename: name of the created  file
  *@text_content: written text
